@@ -1,0 +1,48 @@
+main h2 {
+    font-size: 4rem;
+    font-family: "Bebas Neue";
+    letter-spacing: .125rem;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 24rem;
+    border: 2px solid #1b1b1b;
+    padding: 2rem 0;
+    border-radius: 4px;
+}
+
+.main-form input {
+    width: 80%;
+    height: 3rem;
+    background-color: transparent;
+    border: 2px solid #3b3b3b;
+    padding: 1rem .75rem;
+    color: #b9b9b9;
+    outline-color: #9e9e9e;
+    font-size: 1.1rem;
+}
+
+.main-form button {
+    width: 80%;
+    height: 3rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ececec;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .5s;
+    margin-top: 2rem;
+}
+
+.main-form button:hover {
+    background-color: #fff;
+    color: #1b1b1b;
+}
